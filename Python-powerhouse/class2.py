@@ -23,3 +23,8 @@ print(type(x))
 #string
 x = "hello"
 print(type(x))
+
+#boolean
+x = True
+print(type(x))
+
