@@ -13,3 +13,8 @@ print(s)
 
 s ='123'.isdigit()
 print(s)
+
+l = 'happy starting'
+print(len(l))
+print(l.find('g'))
+print(l.count('p'))
