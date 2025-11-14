@@ -58,3 +58,26 @@
 # else:
 #     print("wrong input")
 
+# 7
+# a = float(input("Enter first  number:- "))
+# b= float(input("Enter second  number:- "))
+# c = float(input("Enter third number:- "))
+
+# if a == b and b == c and c == a:
+#     print("all numbers are equal")
+# elif a == b or b == c or c == a:
+#     print("two numbers are equal")
+# elif a>b and a>c:
+#     print(f"{a} is the largest number")
+# elif b>a and b>c:
+#     print(f"{b} is the largest number")
+# else:
+#     print(f"{c} is the largest number")
+
+# 8
+year = int(input("Enter the year:- "))
+
+if year % 4 == 0 and year%100 != 0 or year%400 ==0:
+    print(f"{year} is a leap year")
+else:
+    print(f"{year} is not a leap year")
