@@ -75,9 +75,21 @@
 #     print(f"{c} is the largest number")
 
 # 8
-year = int(input("Enter the year:- "))
+# year = int(input("Enter the year:- "))
 
-if year % 4 == 0 and year%100 != 0 or year%400 ==0:
-    print(f"{year} is a leap year")
+# if year % 4 == 0 and year%100 != 0 or year%400 ==0:
+#     print(f"{year} is a leap year")
+# else:
+#     print(f"{year} is not a leap year")
+
+# 9
+amt = float(input("Enter the amount:- "))
+p10 = amt*90/100
+p20 = amt*80/100
+
+if amt >= 1000 and amt <= 5000:
+    print(f"you are eligable for 10% discount and final amount is {p10}")
+elif amt >5000:
+    print(f"you are eligable for 20% discount and final amount is {p20}")
 else:
-    print(f"{year} is not a leap year")
+    print("you are not eligable for discount")
