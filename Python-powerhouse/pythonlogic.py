@@ -87,9 +87,9 @@ amt = float(input("Enter the amount:- "))
 p10 = amt*90/100
 p20 = amt*80/100
 
-if amt >= 1000 and amt <= 5000:
-    print(f"you are eligable for 10% discount and final amount is {p10}")
-elif amt >5000:
-    print(f"you are eligable for 20% discount and final amount is {p20}")
+if amt >= 1000 and amt <= 4999:
+    print(f"you are eligable for 10% discount and final amount is {p10} you saved {amt-p10}")
+elif amt >= 5000:
+    print(f"you are eligable for 20% discount and final amount is {p20} you saved {amt-p20}")
 else:
     print("you are not eligable for discount")
