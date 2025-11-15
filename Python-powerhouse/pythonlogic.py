@@ -83,13 +83,22 @@
 #     print(f"{year} is not a leap year")
 
 # 9
-amt = float(input("Enter the amount:- "))
-p10 = amt*90/100
-p20 = amt*80/100
+# amt = float(input("Enter the amount:- "))
+# p10 = amt*90/100
+# p20 = amt*80/100
 
-if amt >= 1000 and amt <= 4999:
-    print(f"you are eligable for 10% discount and final amount is {p10} you saved {amt-p10}")
-elif amt >= 5000:
-    print(f"you are eligable for 20% discount and final amount is {p20} you saved {amt-p20}")
-else:
-    print("you are not eligable for discount")
+# if amt >= 1000 and amt <= 4999:
+#     print(f"you are eligable for 10% discount and final amount is {p10} you saved {amt-p10}")
+# elif amt >= 5000:
+#     print(f"you are eligable for 20% discount and final amount is {p20} you saved {amt-p20}")
+# else:
+#     print("you are not eligable for discount")
+
+# 10
+# a = input("enter the letter:- ")
+# char = 'a,e,i,o,u,A,E,I,O,U'
+
+# if a in char:
+#     print(f"{a} is a vowel")
+# else:
+#     print(f"{a} is  a constant")
