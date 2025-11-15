@@ -95,10 +95,12 @@
 #     print("you are not eligable for discount")
 
 # 10
-# a = input("enter the letter:- ")
-# char = 'a,e,i,o,u,A,E,I,O,U'
+a = input("enter the letter:- ")
+char = 'a,e,i,o,u,A,E,I,O,U'
 
-# if a in char:
-#     print(f"{a} is a vowel")
-# else:
-#     print(f"{a} is  a constant")
+if a in char:
+    print(f"{a} is a vowel")
+elif a not in char:
+    print(f"{a} is  a constant")
+else:
+    print("wrong input")
